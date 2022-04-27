@@ -118,7 +118,7 @@ class GraphTraversal {
     //------------------------------------------------------------------------
     //  Method Name : BFS
     //  Description : Traverse the map using Breadth-First Search.
-    //  Arguments   : None.
+    //  Arguments   : int start_vertex
     //  Return      : None.
     //------------------------------------------------------------------------
     public void BFS(int start_vertex)
@@ -129,7 +129,7 @@ class GraphTraversal {
     //------------------------------------------------------------------------
     //  Method Name : DFS
     //  Description : Traverse the map using Depth-First Search.
-    //  Arguments   : None.
+    //  Arguments   : int start_vertex
     //  Return      : None.
     //------------------------------------------------------------------------
     public void DFS(int start_vertex)
